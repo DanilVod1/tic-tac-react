@@ -80,6 +80,7 @@ class Game extends React.Component {
       xIsNext: step % 2 === 0,
     });
   }
+
   render() {
     const history = this.state.history;
     const current = history[this.state.stepNumber];
